@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
 
-        <section className="space-y-14 mt-16">
+        <section className="space-y-8 md:space-y-14 mt-16">
           {/* Product Name */}
           <h1 className="text-5xl md:text-7xl font-semibold">PostgresMac</h1>
 
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
 
           {/* Tagline */}
-          <p className="text-4xl font-semibold max-w-xl mx-auto">
+          <p className="text-2xl md:text-4xl font-semibold max-w-xl mx-auto">
             Lightweight and native PostgreSQL client for Mac.
           </p>
         </section>
