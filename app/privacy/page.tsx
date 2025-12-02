@@ -16,7 +16,7 @@ export default function PrivacyPage() {
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <header className="mb-12 border-b border-gray-200 dark:border-gray-800 pb-8">
-          <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
+          <h1 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
             Privacy Policy for PostgresMac
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -31,11 +31,11 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Introduction
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               This Privacy Policy explains how PostgresMac handles your
-              information. <strong>All data stays on your device</strong>.
+              information. All data stays on your device.
             </p>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               PostgresMac is a local-only application. We do not collect,
               transmit, store, or share any of your personal information or
               usage data. This privacy policy explains what data the app
@@ -48,20 +48,15 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Information We Do NOT Collect
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               PostgresMac does not collect any information from you, including
-              but not limited to:
+              but not limited to: Personal information (name, email, phone
+              number, etc.), usage analytics or statistics, crash reports or
+              diagnostic data, device information, IP addresses or location
+              data, SQL queries or database content you work with, and
+              connection credentials or database information.
             </p>
-            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-              <li>Personal information (name, email, phone number, etc.)</li>
-              <li>Usage analytics or statistics</li>
-              <li>Crash reports or diagnostic data</li>
-              <li>Device information</li>
-              <li>IP addresses or location data</li>
-              <li>SQL queries or database content you work with</li>
-              <li>Connection credentials or database information</li>
-            </ul>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 font-semibold">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               We do not track you. We do not analyze your behavior. We do not
               collect any data whatsoever.
             </p>
@@ -72,46 +67,39 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Information the App Accesses Locally
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               While PostgresMac does not collect or transmit any data, it does
               access the following information locally on your device to provide
               its functionality:
             </p>
 
-            <div className="space-y-4 pl-4">
+            <div className="space-y-4">
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   PostgreSQL Connection Information
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    Database connection credentials (host, port, username,
-                    password, database name)
-                  </li>
-                  <li>
-                    Saved connection profiles with your chosen names and
-                    settings
-                  </li>
-                  <li>Connection parameters you configure</li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Database connection credentials (host, port, username,
+                  password, database name), saved connection profiles with your
+                  chosen names and settings, and connection parameters you
+                  configure.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Database Content
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    The databases, tables, and data you choose to access through
-                    the PostgreSQL servers you connect to
-                  </li>
-                  <li>SQL queries you write and execute</li>
-                  <li>Query results returned from your PostgreSQL servers</li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  The databases, tables, and data you choose to access through
+                  the PostgreSQL servers you connect to, SQL queries you write
+                  and execute, and query results returned from your PostgreSQL
+                  servers.
+                </p>
               </div>
             </div>
 
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 font-semibold">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               Important: All of this information remains exclusively on your
               Mac. It is never transmitted to us or any third party.
             </p>
@@ -122,76 +110,48 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               How Your Data is Stored
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               All data used by PostgresMac is stored locally on your device:
             </p>
 
-            <div className="space-y-4 pl-4">
+            <div className="space-y-4">
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   macOS Keychain Integration
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    Database passwords are securely stored in your macOS
-                    Keychain
-                  </li>
-                  <li>
-                    This is Apple&apos;s built-in secure storage system designed
-                    to protect sensitive credentials
-                  </li>
-                  <li>
-                    Only PostgresMac can access these stored passwords, and only
-                    with your system&apos;s permission
-                  </li>
-                  <li>
-                    Passwords are encrypted and protected by your Mac&apos;s
-                    security features
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Database passwords are securely stored in your macOS Keychain.
+                  This is Apple&apos;s built-in secure storage system designed
+                  to protect sensitive credentials. Only PostgresMac can access
+                  these stored passwords, and only with your system&apos;s
+                  permission. Passwords are encrypted and protected by your
+                  Mac&apos;s security features.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Local Application Storage
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    Connection profiles (excluding passwords) are stored in your
-                    application&apos;s local storage
-                  </li>
-                  <li>
-                    This includes connection names, hostnames, ports, usernames,
-                    and database names
-                  </li>
-                  <li>
-                    All data is stored using standard macOS application data
-                    storage
-                  </li>
-                  <li>
-                    No data is synchronized to iCloud or any cloud service
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Connection profiles (excluding passwords) are stored in your
+                  application&apos;s local storage. This includes connection
+                  names, hostnames, ports, usernames, and database names. All
+                  data is stored using standard macOS application data storage.
+                  No data is synchronized to iCloud or any cloud service.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   SQL Queries and Results
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    SQL queries you write are executed directly against the
-                    PostgreSQL servers you specify
-                  </li>
-                  <li>
-                    Query results are displayed in the app but not permanently
-                    stored
-                  </li>
-                  <li>
-                    No history of your queries or results is maintained by the
-                    application
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  SQL queries you write are executed directly against the
+                  PostgreSQL servers you specify. Query results are displayed in
+                  the app but not permanently stored. No history of your queries
+                  or results is maintained by the application.
+                </p>
               </div>
             </div>
           </section>
@@ -201,60 +161,45 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Data Security
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               Your data security is ensured through:
             </p>
 
-            <div className="space-y-4 pl-4">
+            <div className="space-y-4">
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Local-Only Architecture
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>PostgresMac operates entirely on your device</li>
-                  <li>
-                    No data transmission to external servers (except PostgreSQL
-                    servers you explicitly connect to)
-                  </li>
-                  <li>
-                    No network connections initiated by the app except to your
-                    specified database servers
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  PostgresMac operates entirely on your device. No data
+                  transmission to external servers (except PostgreSQL servers
+                  you explicitly connect to). No network connections initiated
+                  by the app except to your specified database servers.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   macOS Security Features
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>Leverages macOS Keychain for credential security</li>
-                  <li>
-                    Uses standard macOS application sandboxing and security
-                    features
-                  </li>
-                  <li>
-                    Protected by your Mac&apos;s security settings and user
-                    permissions
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Leverages macOS Keychain for credential security. Uses
+                  standard macOS application sandboxing and security features.
+                  Protected by your Mac&apos;s security settings and user
+                  permissions.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Direct Database Connections
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    When you connect to a PostgreSQL server, the connection goes
-                    directly from your Mac to that server
-                  </li>
-                  <li>We are not an intermediary in this connection</li>
-                  <li>
-                    All communication follows the standard PostgreSQL protocol
-                    with its security features
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  When you connect to a PostgreSQL server, the connection goes
+                  directly from your Mac to that server. We are not an
+                  intermediary in this connection. All communication follows the
+                  standard PostgreSQL protocol with its security features.
+                </p>
               </div>
             </div>
           </section>
@@ -264,17 +209,13 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Third-Party Services
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-              PostgresMac does not use any third-party services, including:
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+              PostgresMac does not use any third-party services, including
+              analytics platforms (no Google Analytics, Mixpanel, etc.), crash
+              reporting services, advertising networks, cloud storage services,
+              and authentication services.
             </p>
-            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-              <li>Analytics platforms (no Google Analytics, Mixpanel, etc.)</li>
-              <li>Crash reporting services</li>
-              <li>Advertising networks</li>
-              <li>Cloud storage services</li>
-              <li>Authentication services</li>
-            </ul>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               The only network connections made by PostgresMac are directly to
               the PostgreSQL database servers you explicitly configure and
               choose to connect to.
@@ -286,7 +227,7 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Data Sharing
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               We do not share any data with third parties because we do not
               collect any data. Your database credentials, connection
               information, SQL queries, and results never leave your device
@@ -300,74 +241,44 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Your Rights and Control
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               You have complete control over your data:
             </p>
 
-            <div className="space-y-4 pl-4">
+            <div className="space-y-4">
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Deleting Connection Profiles
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    You can delete any saved connection profile directly in the
-                    app
-                  </li>
-                  <li>Deleting a connection removes it from local storage</li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  You can delete any saved connection profile directly in the
+                  app. Deleting a connection removes it from local storage.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Removing Passwords
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    Deleting a connection profile also removes associated
-                    passwords from macOS Keychain
-                  </li>
-                  <li>
-                    You can also manage stored passwords through macOS System
-                    Preferences &gt; Passwords
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Deleting a connection profile also removes associated
+                  passwords from macOS Keychain. You can also manage stored
+                  passwords through macOS System Preferences &gt; Passwords.
+                </p>
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+                <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
                   Uninstalling the App
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-                  <li>
-                    Uninstalling PostgresMac removes the application and its
-                    local data
-                  </li>
-                  <li>
-                    You may need to manually remove Keychain entries through
-                    System Preferences if desired
-                  </li>
-                  <li>
-                    No data remains on our servers because no data was ever sent
-                    to us
-                  </li>
-                </ul>
+                <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  Uninstalling PostgresMac removes the application and its local
+                  data. You may need to manually remove Keychain entries through
+                  System Preferences if desired. No data remains on our servers
+                  because no data was ever sent to us.
+                </p>
               </div>
             </div>
-          </section>
-
-          {/* Children's Privacy */}
-          <section className="space-y-4">
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
-              Children&apos;s Privacy
-            </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-              PostgresMac does not collect any information from anyone,
-              including children under the age of 13. The app does not target
-              children specifically, and we do not knowingly collect personal
-              information from children. Since no data is collected by the app,
-              COPPA compliance is maintained by default.
-            </p>
           </section>
 
           {/* Mac App Store Privacy */}
@@ -375,7 +286,7 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Mac App Store Privacy
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               For Mac App Store users, PostgresMac&apos;s privacy label
               indicates &quot;No Data Collected&quot; because the app does not
               collect any data that leaves your device. The app accesses local
@@ -389,30 +300,17 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Changes to This Privacy Policy
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               We may update this Privacy Policy from time to time to reflect
               changes in the app, legal requirements, or our privacy practices.
-              When we make changes:
+              When we make changes, the &quot;Last Updated&quot; date at the top
+              of this policy will be revised. If distributed through the Mac App
+              Store, updates will be noted in release notes. For significant
+              changes, we will provide notice through the app or our website.
+              Continued use of the app after changes indicates acceptance of the
+              updated policy.
             </p>
-            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-              <li>
-                The &quot;Last Updated&quot; date at the top of this policy will
-                be revised
-              </li>
-              <li>
-                If distributed through the Mac App Store, updates will be noted
-                in release notes
-              </li>
-              <li>
-                For significant changes, we will provide notice through the app
-                or our website
-              </li>
-              <li>
-                Continued use of the app after changes indicates acceptance of
-                the updated policy
-              </li>
-            </ul>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               We encourage you to review this Privacy Policy periodically to
               stay informed about how we protect your privacy.
             </p>
@@ -423,26 +321,16 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Future Changes to the App
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               Currently, PostgresMac is a completely local application with no
               data collection. If we ever introduce features that involve data
-              collection, cloud synchronization, or online services:
+              collection, cloud synchronization, or online services, this
+              Privacy Policy will be updated accordingly, users will be clearly
+              notified before any such features are enabled, any data collection
+              features will be optional and require explicit user consent, and
+              the core principle of privacy protection will remain central to
+              the app.
             </p>
-            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-              <li>This Privacy Policy will be updated accordingly</li>
-              <li>
-                Users will be clearly notified before any such features are
-                enabled
-              </li>
-              <li>
-                Any data collection features will be optional and require
-                explicit user consent
-              </li>
-              <li>
-                The core principle of privacy protection will remain central to
-                the app
-              </li>
-            </ul>
           </section>
 
           {/* Contact Us */}
@@ -450,21 +338,15 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Contact Us
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               If you have any questions, concerns, or requests regarding this
               Privacy Policy or PostgresMac&apos;s privacy practices, please
               contact us at:
             </p>
-            <div className="space-y-2 text-gray-700 dark:text-gray-300 pl-2">
-              <p>
-                <strong>Email:</strong> fikri@mghazi.com
-              </p>
-              <p>
-                <strong>Website:</strong> postgresmac.com
-              </p>
-              <p>
-                <strong>Developer:</strong> Fikri Ghazi
-              </p>
+            <div className="space-y-2 text-gray-700 dark:text-gray-300">
+              <p>Email: fikri@mghazi.com</p>
+              <p>Website: postgresmac.com</p>
+              <p>Developer: Fikri Ghazi</p>
             </div>
           </section>
 
@@ -473,35 +355,16 @@ export default function PrivacyPage() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 dark:text-gray-100">
               Summary
             </h2>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-              To summarize PostgresMac&apos;s approach to privacy:
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
+              To summarize PostgresMac&apos;s approach to privacy: No data
+              collection - we do not collect any information from you. Local
+              storage only - all data stays on your Mac. Secure credentials -
+              passwords protected by macOS Keychain. No tracking - no analytics,
+              no crash reports, no usage statistics. No third parties - no
+              external services or data sharing. You are in control - complete
+              control over your connection profiles and data.
             </p>
-            <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300 pl-2">
-              <li>
-                <strong>No data collection:</strong> We do not collect any
-                information from you
-              </li>
-              <li>
-                <strong>Local storage only:</strong> All data stays on your Mac
-              </li>
-              <li>
-                <strong>Secure credentials:</strong> Passwords protected by
-                macOS Keychain
-              </li>
-              <li>
-                <strong>No tracking:</strong> No analytics, no crash reports, no
-                usage statistics
-              </li>
-              <li>
-                <strong>No third parties:</strong> No external services or data
-                sharing
-              </li>
-              <li>
-                <strong>You are in control:</strong> Complete control over your
-                connection profiles and data
-              </li>
-            </ul>
-            <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               PostgresMac does not collect any data from you. All information
               remains stored locally on your device.
             </p>
