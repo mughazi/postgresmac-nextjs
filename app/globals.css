@@ -19,9 +19,18 @@
   }
 }
 
-html,
+html {
+  @apply bg-gradient-to-b from-gray-50 to-gray-100 text-gray-900;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    @apply bg-gradient-to-b from-gray-900 to-gray-950 text-gray-100;
+  }
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  @apply bg-gradient-to-b from-gray-50 to-gray-100 text-gray-900 dark:from-gray-900 dark:to-gray-950 dark:text-gray-100;
+  background: transparent;
+  color: inherit;
+  min-height: 100vh;
 }
