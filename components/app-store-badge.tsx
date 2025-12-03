@@ -155,4 +155,3 @@ export function AppStoreBadge() {
     </svg>
   );
 }
-
